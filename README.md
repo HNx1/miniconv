@@ -1,7 +1,7 @@
 # miniconv
 
 This library is designed to be a minimal implementation of a convolutional
-neural network (CNN) in Python with a little basic numpy.
+neural network (CNN) in Python with a little basic numpy for random numbers and matrix convenience.
 
 ### Usage
 
