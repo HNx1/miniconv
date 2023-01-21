@@ -5,7 +5,6 @@ neural network (CNN) in Python.
 
 ### Usage
 
-- We use basic numpy for some matrix operations and random generation
 - You should not use this library in production code. It will be (much!) slower
   than PyTorch/a more verbose implementation. It is purely for educational
   purposes and helping to understand the basic operation of a CNN.
