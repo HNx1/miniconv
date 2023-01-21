@@ -23,8 +23,7 @@ neural network (CNN) in Python.
   the end node where backward() is called with respect to that instance of the
   GradFloat class, and to return a new GradFloat object with the correct
   properties.
-- Finally we build up ConvolutionNeurons, Layers, and the CNN class which build
-  on each other
+- Finally we build up the ConvolutionNeuron, Layer, and CNN classes.
 - In this implementation, input matrices are fully padded before the kernel is
   applied. There is no batching/pooling/dense network/set of linear classifier
   layers.
