@@ -9,11 +9,7 @@ neural network (CNN) in Python.
 - You should not use this library in production code. It will be (much!) slower
   than PyTorch/a more verbose implementation. It is purely for educational
   purposes and helping to understand the basic operation of a CNN.
-- To create a CNN model call the CNN constructor, supplying a list of kernel
-  sizes, a list of feature numbers, and the size of the input data
-- To train this CNN for N epochs, on data X, with labels Y, call
-  cycle(model,X,Y,N)
-
+  
 ### Interpretation
 
 - We define a GradFloat class that allows the creation of floats (and ints) with
