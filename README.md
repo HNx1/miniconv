@@ -18,7 +18,7 @@ neural network (CNN) in Python.
   GradFloat class) when the backward() method is called on that object (in the
   CNN implementation this will be from the loss at the end of the neural
   network, but the user can backpropagate from any node manually).
-- Standard addition, multiplication and exponentiation operations are defined on
+- Standard addition, multiplication and tanh operations are defined on
   this class which extend the operation to calculate the cumulative gradient of
   the end node where backward() is called with respect to that instance of the
   GradFloat class, and to return a new GradFloat object with the correct
