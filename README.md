@@ -35,7 +35,7 @@ neural network (CNN) in Python.
   method is also relatively easy by attaching a layer property to each part of
   the network and searching for children in the next layer down
 
-### Inspiration/Credits
+### Inspiration
 
 - inspired by the micrograd MLP implementation by Andrej Karpathy - see the
   [micrograd github page](https://github.com/karpathy/micrograd).
