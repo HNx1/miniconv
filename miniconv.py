@@ -113,7 +113,7 @@ class Layer():
 
     def __call__(self, x):
         s = np.array(x).shape
-        return [np.array([x.tanh() for x in np.sum([n(xi) for xi in x], axis=0)]).reshape((s[1], s[2]))
+        return [np.array([x.tanh() for x in np.sum([n(xi) for xi in x], axis=0, initial=n.b)]).reshape((s[1], s[2]))
                 for n in self.neurons]
 
     def parameters(self):
