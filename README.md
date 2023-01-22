@@ -27,11 +27,10 @@ neural network (CNN) in Python with a little basic numpy for random numbers and 
   applied. There is no batching/pooling/dense network/set of linear classifier
   layers.
 - The final reduction step is a linear method contained directly in the CNN
-  class (to turn a set of features as p\*p matrices into a binary
-  classification)
+  class (to turn a set of features as p\*p matrices into a single float for classification purposes).
 - We use a topological sort to arrage the backpropagation method, but a direct
   method is also relatively easy by attaching a layer property to each part of
-  the network and searching for children in the next layer down
+  the network and searching for children in the next layer down.
 
 ### Inspiration
 
