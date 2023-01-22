@@ -7,7 +7,7 @@ neural network (CNN) in Python with a little basic numpy for random numbers and 
 
 - You should not use this library in production code. It will be (much!) slower
   than PyTorch/a more verbose implementation. It is purely for educational
-  purposes and helping to understand the basic operation of a CNN.
+  purposes and helping to understand the structure of a CNN.
   
 ### Interpretation
 
