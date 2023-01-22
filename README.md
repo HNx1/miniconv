@@ -27,7 +27,7 @@ neural network (CNN) in Python with a little basic numpy for random numbers and 
   applied. There is no batching/pooling/dense network/set of linear classifier
   layers.
 - The final reduction step is a full size convolution with zero padding and 1 feature output, contained directly in the CNN
-  class (to turn a set of features as p\*p matrices into a single float for classification purposes). It's easy to introduce more complex classifiers at this step, or adapt the miniconv Layer and ConvolutionNeuron classes to allow striding to reduce the activation output size gradually.
+  class (to turn a set of features as p\*p matrices into a single float for classification purposes). It's easy to introduce more complex classifiers at this step, or adapt the miniconv Layer and ConvolutionNeuron classes to allow striding to reduce the activation output size gradually. One example would be adapting this convolution into a basic linear classifier by using np.matmul instead of the convolution operation (see comment in miniconv.py).
 - We use a topological sort to arrage the backpropagation method, but a direct
   method is also relatively easy by attaching a layer property to each part of
   the network and searching for children in the next layer down.
