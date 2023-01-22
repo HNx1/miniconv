@@ -1,5 +1,4 @@
 import numpy as np
-import math
 
 
 class GradFloat():
@@ -50,8 +49,8 @@ class GradFloat():
         return out
 
     def tanh(self):
-        out = GradFloat((math.exp(2*self.val)-1) /
-                        (math.exp(2*self.val)+1), _children=(self,))
+        out = GradFloat((np.exp(2*self.val)-1) /
+                        (np.exp(2*self.val)+1), _children=(self,))
 
         def _backward():
             self.grad = (1-out.val**2)*out.grad
