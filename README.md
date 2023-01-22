@@ -34,5 +34,5 @@ neural network (CNN) in Python with a little basic numpy for random numbers and 
 
 ### Inspiration
 
-- inspired by the micrograd MLP implementation by Andrej Karpathy - see the
+- Inspired by the micrograd MLP implementation by Andrej Karpathy - see the
   [micrograd github page](https://github.com/karpathy/micrograd).
