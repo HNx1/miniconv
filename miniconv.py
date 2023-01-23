@@ -53,7 +53,7 @@ class GradFloat():
                         (np.exp(2*self.val)+1), _children=(self,))
 
         def _backward():
-            self.grad = (1-out.val**2)*out.grad
+            self.grad += (1-out.val**2)*out.grad
         out._backward = _backward
         return out
 
